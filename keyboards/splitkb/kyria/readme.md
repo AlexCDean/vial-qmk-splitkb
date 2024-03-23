@@ -10,9 +10,9 @@ An ergonomical 40% split keyboard
 
 Make example for this keyboard (after setting up your build environment):
 
-Alex, you added a conversion to liatris in the rules.mk, it's fine now to use the vial config (keymap really). Don't forget to reset your controllers before flashing them. Don't forget to do this from "QMK Msys" which has all the build tools contained
+Alex, you added a conversion to liatris in the rules.mk so it automatically converts to liatris. Don't forget to reset your controllers before flashing them. Don't forget to do this from "QMK Msys" which has all the build tools contained
 
-    make splitkb/kyria/rev3:vial
+    make splitkb/kyria/rev3:alex
 
 Example of flashing this keyboard:
 
