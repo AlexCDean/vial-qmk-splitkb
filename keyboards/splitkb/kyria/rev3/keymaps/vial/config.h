@@ -12,3 +12,8 @@
 #define RGB_MATRIX_KEYPRESSES
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
+// EC11K encoders have a different resolution than other EC11 encoders.
+// When using the default resolution of 4, if you notice your encoder skipping
+// every other tick, lower the resolution to 2.
+#define ENCODER_RESOLUTION 2
